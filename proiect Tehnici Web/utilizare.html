@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="utilizare.css" >
+<script src="functii_utilizare.js"></script>
+</head>
+
+<body id="pagina">
+
+<div><img class="img-rounded" src="poze/doTERRA_Logo.jpg" id="doterra"></div>
+
+
+
+<div>
+<ul class="dropmenu">
+  <li id="menu"><a href="proiect.html">Home</a>
+  </li>
+  <li id="menu"><a href="utilizare.html" class="active">Utilizare</a>
+  </li>
+
+  <li id="menu"><a href="despre_doterra.html">About</a>
+  		<div class="drop-content">
+	  		<a href="despre_uleiuri.html">Despre uleiurile esentiale</a>
+	  		<a href="despre_doterra.html">Despre doTERRA</a>
+  		</div>
+  </li>
+</ul>
+</div>
+
+
+<button class="btn btn-success" id="myAnchor">Go to doTerra.com</button>
+<button class="btn btn-success" id="notAnchor">Close doTerra.com</button>
+<br>
+
+<div id="alert_click">
+<section style="display: inline-block;">
+<img class="img-rounded" src="poze/onguard.jpg" id="onguard" class="myOnguard">
+<div id ="text_onguard" style="display: none">
+
+  <section class="imagine" style="display: block;">
+  <button class="btn btn-primary" id="hide_onguard">Ascunde scrisul</button>
+    <h3 id="back_onguard">Rolul blendului <span style="color:blue">On Guard</span></h3>
+    <ol>
+      <li>Intarirea sistemului imunitar</li>
+      <li>Sustine sistemul imunitar si respirator</li>
+      <li>Sustine circulatia sanatoasa</li>
+      <li>Rol de dezinfectant</li>
+    </ol>
+    <aside>
+      Se poate utiliza o picatura intr-o lingurita de miere pentru durerile in gat.
+    </aside>
+    </section>
+
+</div>
+</section>
+
+<section class="imagine" style="display: inline-block;">
+<img class="img-rounded" src="poze/lavanda.jpg" id="lavanda">
+<div id ="text_lavanda" style="display: none">
+<section>
+<button class="btn btn-primary" id="hide_lavanda">Ascunde scrisul</button>
+  <h3 id="back_lavanda">Rolul blendului On Guard</h3>
+  <ol>
+    <li>Intarirea sistemului imunitar</li>
+    <li>Sustine sistemul imunitar si respirator</li>
+    <li>Sustine circulatia sanatoasa</li>
+    <li>Rol de dezinfectant</li>
+  </ol>
+  </section>
+</div>
+</section>
+
+<section class="imagine" style="display: inline-block;">
+<img class="img-rounded" src="poze/menta.jpg" id="menta">
+<div id ="text_menta" style="display: none">
+<button class="btn btn-primary" id="hide_menta">Ascunde scrisul</button>
+  <h3 id="back_menta">Rolul blendului On Guard</h3>
+  <ol>
+    <li>Intarirea sistemului imunitar</li>
+    <li>Sustine sistemul imunitar si respirator</li>
+    <li>Sustine circulatia sanatoasa</li>
+    <li>Rol de dezinfectant</li>
+  </ol>
+</div>
+</section>
+
+</div>
+<br>
+
+<form id="ce_culoare" style="color: #7300e6">
+  Vrei mai multe informatii?<br>
+  <input type="radio" name="info" id="DA">Da<br>
+  <input type="radio" name="info" id="NU">Nu<br>
+</form>
+
+<button class="btn btn-primary" id="submit">Submit</button><br>
+<div id="nrClick"></div>
+
+<div id="butoane" style="display: none">
+  <button class="btn btn-success" id="createInfo">Adauga Informatii</button>
+  <button class="btn btn-danger" id="deleteInfo">Sterge Informatii</button>
+  <input type="checkbox" name="check" value="AccesButoane" id="myCheck"> Pot utiliza butoanele<br>
+</div>
+
+<div id="Informatii"></div>
+
+<button class="btn btn-warning" id="culoareButon">Afla culoarea</button>
+
+<p>Culoarea butonului este: <span id="culoareAscunsa"></span> </p>
+
+<p> Ai vreo intrebare?</p>
+<input type="text" size="40" id="tastatura">
+<p id="tasta"></p>
+
+<p id="coordonate"></p>
+<img id="back" src="poze/bg.jpg">
+</body>
+</html>
+

@@ -1,0 +1,109 @@
+body, html{
+    height: 100%;
+    margin: 0;
+}
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #c284e1;
+}
+
+#menu{
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #9932cd;
+}
+
+.active {
+    background-color: #9932cd;
+}
+
+#doterra{
+    width: 15%;
+    height: 15%;
+}
+
+.drop-content{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.drop-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.drop-content a:hover {
+    background-color: #ddd;
+}
+
+.dropmenu li:hover .drop-content{ display: block; }
+
+
+.column{
+    float: left;
+    width: 25%;
+    padding: 5px;
+    display: inline-block;
+    position: relative;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.row{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+figcaption{
+text-align: center;
+}
+
+.hover-up:hover{
+margin-top: -20px;
+}
+
+#onguard{
+    width: 300px;
+    height: 300px;
+}
+#lavanda{
+    width: 300px;
+    height: 300px;
+}
+#menta{
+    width: 300px;
+    height: 300px;
+}
+
+.styleShow{
+    display: block;
+}
+
+#back{
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+    width: 100vw;
+    height: 100vw;
+}
